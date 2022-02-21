@@ -1,0 +1,7 @@
+Compile with:
+    C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe /target:library /out:SharpSectionJect.dll SharpSectionJect.cs
+
+Run with:
+    C:\Windows\Microsoft.NET\Framework64\v4.0.30319\InstallUtil.exe /U /logfile= /logtoconsole=false SharpSectionJect.dll
+
+- Use C:\Windows\Microsoft.NET\Framework\v4.0.30319\InstallUtil.exe for 32 bit.

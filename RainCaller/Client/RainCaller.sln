@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31313.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RainCaller", "RainCaller\RainCaller.csproj", "{D4149924-35F1-4D5A-BE6F-07FA0541EDE6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4149924-35F1-4D5A-BE6F-07FA0541EDE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4149924-35F1-4D5A-BE6F-07FA0541EDE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4149924-35F1-4D5A-BE6F-07FA0541EDE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4149924-35F1-4D5A-BE6F-07FA0541EDE6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {683C8717-525C-42C3-B4C1-E0D025F9DF9A}
+	EndGlobalSection
+EndGlobal

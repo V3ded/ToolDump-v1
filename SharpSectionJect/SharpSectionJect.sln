@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31313.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpSectionJect", "SharpSectionJect\SharpSectionJect.csproj", "{90A21B70-E37A-46A1-8686-112EF3276AF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpSectionJectDLL", "SharpSectionJectDLL\SharpSectionJectDLL.csproj", "{CF3DD96F-0B1E-48DD-AE70-0AAB0DFB270E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FB3214CF-5BBC-4799-BF9C-16069881A6E6}"
+	ProjectSection(SolutionItems) = preProject
+		SharpSectionJectInstallUtil\SharpSectionJect.cs = SharpSectionJectInstallUtil\SharpSectionJect.cs
+		SharpSectionJectMsBuild\SharpSectionJect.xml = SharpSectionJectMsBuild\SharpSectionJect.xml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90A21B70-E37A-46A1-8686-112EF3276AF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90A21B70-E37A-46A1-8686-112EF3276AF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90A21B70-E37A-46A1-8686-112EF3276AF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90A21B70-E37A-46A1-8686-112EF3276AF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF3DD96F-0B1E-48DD-AE70-0AAB0DFB270E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF3DD96F-0B1E-48DD-AE70-0AAB0DFB270E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF3DD96F-0B1E-48DD-AE70-0AAB0DFB270E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF3DD96F-0B1E-48DD-AE70-0AAB0DFB270E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {10A613CB-AF45-47D1-BD27-8E207A6101F1}
+	EndGlobalSection
+EndGlobal
